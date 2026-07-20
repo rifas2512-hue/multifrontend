@@ -1,0 +1,33 @@
+{
+  "name": "ai-multicloud-platform",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://rifas2512-hue.github.io/multifrontend",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.7",
+    "firebase": "^12.16.0",
+    "lucide-react": "^1.25.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet-async": "^2.0.5",
+    "react-hot-toast": "^2.6.0",
+    "react-redux": "^8.1.3",
+    "react-router-dom": "^6.20.0",
+    "redux-persist": "^6.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.4.0",
+    "vite": "^4.5.0"
+  }
+}
